@@ -319,18 +319,18 @@ tr.note-row td.note {
     border: none;
 color: rgb(254,252,120);
     font-style: italic;
-    font-weight: 400;
-    font-size: 9px;
+    font-weight: 300;
+    font-size: 12px;
     font-style: italic;
-    font-weight: 400;
-    font-size: 9px;
+    font-weight: 300;
+    font-size: 12px;
     
 }
 tr.note-row td.note-bg {
 
 }
 table.whole-row, table.whole-note, table#column-header, div.temp-wrapper {
-width: 801px;
+width: 765px;
 
 }
 /******************
@@ -343,17 +343,13 @@ div#centered table.span-columns {
     max-width: 100%;
 }
 /* Column widths + backgrounds */
-tr#header td:nth-of-type(1), tr.outline-row > td:nth-of-type(1), tr.note-row > td:nth-of-type(1) { 
-    width: 20px; 
-    max-width: 20px; 
-}
 table.outline-column { 
-    width: 781px; 
-    max-width: 781px; 
+    width: 765px; 
+    max-width: 765px; 
 }
-tr#header td:nth-of-type(2), tr.outline-row > td:nth-of-type(2) { 
-    width: 781px; 
-    max-width: 781px; 
+tr#header td:nth-of-type(1), tr.outline-row > td:nth-of-type(1) { 
+    width: 765px; 
+    max-width: 765px; 
     
 }
 
@@ -361,7 +357,7 @@ tr#header td:nth-of-type(2), tr.outline-row > td:nth-of-type(2) {
 tr.outline-row > td:nth-of-type(1), tr.note-row > td:nth-of-type(1){ 
     
 }
-tr.outline-row > td:nth-of-type(2) { 
+tr.outline-row > td:nth-of-type(1) { 
     
 }
 
@@ -387,7 +383,7 @@ Level# gutter color – Only applied to nested table for outline column
 tr.outline-row.level-1 td, tr.outline-row.level-1 div > div, tr.note-row.level-1 table.note-table td:nth-of-type(3) { 
     color: rgb(121,128,255);
     font-weight: 900;
-    font-size: 48px;
+    font-size: 64px;
     
 }
 /* Level 1 background color */
@@ -402,7 +398,7 @@ tr.outline-row.level-1 table.outline-column td:not(:last-of-type) {
 tr.outline-row.level-2 td, tr.outline-row.level-2 div > div, tr.note-row.level-2 table.note-table td:nth-of-type(3) { 
     color: rgb(255,137,216);
     font-weight: 800;
-    font-size: 36px;
+    font-size: 24px;
     
 }
 /* Level 2 background color */
@@ -416,7 +412,7 @@ tr.outline-row.level-2 table.outline-column td:not(:last-of-type) {
 /* Level 3 styles */
 tr.outline-row.level-3 td, tr.outline-row.level-3 div > div, tr.note-row.level-3 table.note-table td:nth-of-type(3) { 
     color: rgb(255,125,120);
-    font-size: 18px;
+    font-size: 24px;
     
 }
 /* Level 3 background color */
@@ -431,6 +427,7 @@ tr.outline-row.level-3 table.outline-column td:not(:last-of-type) {
 tr.outline-row.level-4 td, tr.outline-row.level-4 div > div, tr.note-row.level-4 table.note-table td:nth-of-type(3) { 
     color: rgb(114,250,120);
     font-weight: 900;
+    font-size: 18px;
     
 }
 /* Level 4 background color */
@@ -444,7 +441,6 @@ tr.outline-row.level-4 table.outline-column td:not(:last-of-type) {
 /* Level 5 styles */
 tr.outline-row.level-5 td, tr.outline-row.level-5 div > div, tr.note-row.level-5 table.note-table td:nth-of-type(3) { 
     color: rgb(114,252,213);
-    font-size: 12px;
     
 }
 /* Level 5 background color */
@@ -457,8 +453,8 @@ tr.outline-row.level-5 table.outline-column td:not(:last-of-type) {
 }
 /* Level 6 styles */
 tr.outline-row.level-6 td, tr.outline-row.level-6 div > div, tr.note-row.level-6 table.note-table td:nth-of-type(3) { 
+    color: rgb(234,234,234);
     font-weight: 300;
-    font-size: 13px;
     
 }
 /* Level 6 background color */
@@ -471,7 +467,7 @@ tr.outline-row.level-6 table.outline-column td:not(:last-of-type) {
 }
 /* Level 7 styles */
 tr.outline-row.level-7 td, tr.outline-row.level-7 div > div, tr.note-row.level-7 table.note-table td:nth-of-type(3) { 
-    font-size: 13px;
+    color: rgb(192,192,192);
     
 }
 /* Level 7 background color */
