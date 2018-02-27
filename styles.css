@@ -373,6 +373,8 @@ Level# gutter color – Only applied to nested table for outline column
 ******************/
 /* Level 1 styles */
 tr.outline-row.level-1 td, tr.outline-row.level-1 div > div, tr.note-row.level-1 table.note-table td:nth-of-type(3) { 
+    font-weight: 700;
+    font-size: 24px;
     
 }
 /* Level 1 background color */
@@ -381,6 +383,92 @@ tr.level-1 > td > div.alt-row-layer > div, tr.level-1.note-row > td > div {
 }
 /* Level 1 gutter color */
 tr.outline-row.level-1 table.outline-column td:not(:last-of-type) { 
+    
+}
+/* Level 2 styles */
+tr.outline-row.level-2 td, tr.outline-row.level-2 div > div, tr.note-row.level-2 table.note-table td:nth-of-type(3) { 
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    
+}
+/* Level 2 background color */
+tr.level-2 > td > div.alt-row-layer > div, tr.level-2.note-row > td > div { 
+    
+}
+/* Level 2 gutter color */
+tr.outline-row.level-2 table.outline-column td:not(:last-of-type) { 
+    
+}
+/* Level 3 styles */
+tr.outline-row.level-3 td, tr.outline-row.level-3 div > div, tr.note-row.level-3 table.note-table td:nth-of-type(3) { 
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+/* Level 3 background color */
+tr.level-3 > td > div.alt-row-layer > div, tr.level-3.note-row > td > div { 
+    
+}
+/* Level 3 gutter color */
+tr.outline-row.level-3 table.outline-column td:not(:last-of-type) { 
+    
+}
+/* Level 4 styles */
+tr.outline-row.level-4 td, tr.outline-row.level-4 div > div, tr.note-row.level-4 table.note-table td:nth-of-type(3) { 
+    color: rgb(0,83,146);
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+/* Level 4 background color */
+tr.level-4 > td > div.alt-row-layer > div, tr.level-4.note-row > td > div { 
+    
+}
+/* Level 4 gutter color */
+tr.outline-row.level-4 table.outline-column td:not(:last-of-type) { 
+    
+}
+/* Level 5 styles */
+tr.outline-row.level-5 td, tr.outline-row.level-5 div > div, tr.note-row.level-5 table.note-table td:nth-of-type(3) { 
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+/* Level 5 background color */
+tr.level-5 > td > div.alt-row-layer > div, tr.level-5.note-row > td > div { 
+    
+}
+/* Level 5 gutter color */
+tr.outline-row.level-5 table.outline-column td:not(:last-of-type) { 
+    
+}
+/* Level 6 styles */
+tr.outline-row.level-6 td, tr.outline-row.level-6 div > div, tr.note-row.level-6 table.note-table td:nth-of-type(3) { 
+    color: rgb(0,145,146);
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+/* Level 6 background color */
+tr.level-6 > td > div.alt-row-layer > div, tr.level-6.note-row > td > div { 
+    
+}
+/* Level 6 gutter color */
+tr.outline-row.level-6 table.outline-column td:not(:last-of-type) { 
+    
+}
+/* Level 7 styles */
+tr.outline-row.level-7 td, tr.outline-row.level-7 div > div, tr.note-row.level-7 table.note-table td:nth-of-type(3) { 
+    font-weight: 700;
+    
+}
+/* Level 7 background color */
+tr.level-7 > td > div.alt-row-layer > div, tr.level-7.note-row > td > div { 
+    
+}
+/* Level 7 gutter color */
+tr.outline-row.level-7 table.outline-column td:not(:last-of-type) { 
     
 }
 
