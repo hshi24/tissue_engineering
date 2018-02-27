@@ -3,22 +3,14 @@ html {
     overflow-y: scroll;
 }
 
-a {
-    color: rgb(0,105,217);
-}
-a:visited {
-    color: rgb(153,128,161);
-}
-
 body#wholeDocument {
     -webkit-text-size-adjust:none; 
     font-family: Helvetica, sans-serif; 
     font-size: 12px;
-color: rgb(148,164,166);
-    font-family: "Avenir", sans-serif; 
-    font-weight: 500;
+font-family: "Hoefler Text", sans-serif; 
     font-size: 14px;
-    background-color: rgb(0,56,70);
+    line-height: 1.32;
+    background-color: rgb(247,241,231);
     
 }
 /* height hack to make nested divs set to 100% height work in Chrome and Firefox */
@@ -81,7 +73,7 @@ div.force-wrap {
 }
 tr#header {
 
-        border-bottom: 1px solid rgba(255,255,255,0.25);
+        border-bottom: 1px solid rgba(0,0,0,0.25);
     
 }
 /* This is the table used for just the outline column/note column and is nested in the cell for the outline column of the row */
@@ -317,20 +309,16 @@ tr.note-row td.note {
     /* padding-left: 5px;
     padding-right: 3px; */ 
     border: none;
-color: rgb(254,252,120);
+color: rgb(121,121,121);
     font-style: italic;
-    font-weight: 300;
-    font-size: 12px;
     font-style: italic;
-    font-weight: 300;
-    font-size: 12px;
     
 }
 tr.note-row td.note-bg {
 
 }
 table.whole-row, table.whole-note, table#column-header, div.temp-wrapper {
-width: 785px;
+width: 783px;
 
 }
 /******************
@@ -348,12 +336,12 @@ tr#header td:nth-of-type(1), tr.outline-row > td:nth-of-type(1), tr.note-row > t
     max-width: 20px; 
 }
 table.outline-column { 
-    width: 765px; 
-    max-width: 765px; 
+    width: 763px; 
+    max-width: 763px; 
 }
 tr#header td:nth-of-type(2), tr.outline-row > td:nth-of-type(2) { 
-    width: 765px; 
-    max-width: 765px; 
+    width: 763px; 
+    max-width: 763px; 
     
 }
 
@@ -385,9 +373,6 @@ Level# gutter color – Only applied to nested table for outline column
 ******************/
 /* Level 1 styles */
 tr.outline-row.level-1 td, tr.outline-row.level-1 div > div, tr.note-row.level-1 table.note-table td:nth-of-type(3) { 
-    color: rgb(121,128,255);
-    font-weight: 900;
-    font-size: 64px;
     
 }
 /* Level 1 background color */
@@ -398,163 +383,100 @@ tr.level-1 > td > div.alt-row-layer > div, tr.level-1.note-row > td > div {
 tr.outline-row.level-1 table.outline-column td:not(:last-of-type) { 
     
 }
-/* Level 2 styles */
-tr.outline-row.level-2 td, tr.outline-row.level-2 div > div, tr.note-row.level-2 table.note-table td:nth-of-type(3) { 
-    color: rgb(255,137,216);
-    font-weight: 800;
-    font-size: 24px;
-    
-}
-/* Level 2 background color */
-tr.level-2 > td > div.alt-row-layer > div, tr.level-2.note-row > td > div { 
-    
-}
-/* Level 2 gutter color */
-tr.outline-row.level-2 table.outline-column td:not(:last-of-type) { 
-    
-}
-/* Level 3 styles */
-tr.outline-row.level-3 td, tr.outline-row.level-3 div > div, tr.note-row.level-3 table.note-table td:nth-of-type(3) { 
-    color: rgb(255,125,120);
-    font-size: 24px;
-    
-}
-/* Level 3 background color */
-tr.level-3 > td > div.alt-row-layer > div, tr.level-3.note-row > td > div { 
-    
-}
-/* Level 3 gutter color */
-tr.outline-row.level-3 table.outline-column td:not(:last-of-type) { 
-    
-}
-/* Level 4 styles */
-tr.outline-row.level-4 td, tr.outline-row.level-4 div > div, tr.note-row.level-4 table.note-table td:nth-of-type(3) { 
-    color: rgb(114,250,120);
-    font-weight: 900;
-    font-size: 18px;
-    
-}
-/* Level 4 background color */
-tr.level-4 > td > div.alt-row-layer > div, tr.level-4.note-row > td > div { 
-    
-}
-/* Level 4 gutter color */
-tr.outline-row.level-4 table.outline-column td:not(:last-of-type) { 
-    
-}
-/* Level 5 styles */
-tr.outline-row.level-5 td, tr.outline-row.level-5 div > div, tr.note-row.level-5 table.note-table td:nth-of-type(3) { 
-    color: rgb(114,252,213);
-    
-}
-/* Level 5 background color */
-tr.level-5 > td > div.alt-row-layer > div, tr.level-5.note-row > td > div { 
-    
-}
-/* Level 5 gutter color */
-tr.outline-row.level-5 table.outline-column td:not(:last-of-type) { 
-    
-}
-/* Level 6 styles */
-tr.outline-row.level-6 td, tr.outline-row.level-6 div > div, tr.note-row.level-6 table.note-table td:nth-of-type(3) { 
-    color: rgb(234,234,234);
-    font-weight: 300;
-    
-}
-/* Level 6 background color */
-tr.level-6 > td > div.alt-row-layer > div, tr.level-6.note-row > td > div { 
-    
-}
-/* Level 6 gutter color */
-tr.outline-row.level-6 table.outline-column td:not(:last-of-type) { 
-    
-}
-/* Level 7 styles */
-tr.outline-row.level-7 td, tr.outline-row.level-7 div > div, tr.note-row.level-7 table.note-table td:nth-of-type(3) { 
-    color: rgb(192,192,192);
-    
-}
-/* Level 7 background color */
-tr.level-7 > td > div.alt-row-layer > div, tr.level-7.note-row > td > div { 
-    
-}
-/* Level 7 gutter color */
-tr.outline-row.level-7 table.outline-column td:not(:last-of-type) { 
-    
-}
 
 /*********************************************
 Named styles info:
 Padding values are not included here because they are additive and can affect a different row than the one that has the attribute
 *********************************************/
 /* Named Styles */
-div#centered tr td .ns-mW_5AmyiqIR-Cyan, .ns-mW_5AmyiqIR-Cyan, div#centered .ns-mW_5AmyiqIR-Cyan div { 
-    color: rgb(47,174,168);
-    
-}
 div#centered tr td .ns-eUsXLp0Pv1g-Heading1, .ns-eUsXLp0Pv1g-Heading1, div#centered .ns-eUsXLp0Pv1g-Heading1 div { 
-    color: rgb(47,174,168);
-    font-weight: 300;
     font-size: 28px;
     
 }
 div#centered tr td .ns-d4-frBYwy2X-Heading2, .ns-d4-frBYwy2X-Heading2, div#centered .ns-d4-frBYwy2X-Heading2 div { 
-    color: rgb(47,174,168);
     font-size: 20px;
     
 }
-div#centered tr td .ns-lvlHqEWyGdu-Emphasis, .ns-lvlHqEWyGdu-Emphasis, div#centered .ns-lvlHqEWyGdu-Emphasis div { 
-    color: rgb(162,175,176);
-    font-weight: 700;
+div#centered tr td .ns-krIA-ySqeNG-Heading3, .ns-krIA-ySqeNG-Heading3, div#centered .ns-krIA-ySqeNG-Heading3 div { 
+    font-style: italic;
+    font-size: 14px;
     
 }
-div#centered tr td .ns-emdROOKcvza-Highlight, .ns-emdROOKcvza-Highlight, div#centered .ns-emdROOKcvza-Highlight div { 
+div#centered tr td .ns-eKivYKen-Vk-HighlightYellow, .ns-eKivYKen-Vk-HighlightYellow, div#centered .ns-eKivYKen-Vk-HighlightYellow div { 
     
 }
-div#centered tr td .ns-o8F90GWOfEO-Yellow, .ns-o8F90GWOfEO-Yellow, div#centered .ns-o8F90GWOfEO-Yellow div { 
-    color: rgb(194,153,0);
+div#centered tr td .ns-fVncwG-SA8C-HighlightRed, .ns-fVncwG-SA8C-HighlightRed, div#centered .ns-fVncwG-SA8C-HighlightRed div { 
     
 }
-div#centered tr td .ns-ee6KT3agxJ7-Orange, .ns-ee6KT3agxJ7-Orange, div#centered .ns-ee6KT3agxJ7-Orange div { 
-    color: rgb(214,96,26);
+div#centered tr td .ns-oD8iDt7Sk-V-HighlightGreen, .ns-oD8iDt7Sk-V-HighlightGreen, div#centered .ns-oD8iDt7Sk-V-HighlightGreen div { 
     
 }
-div#centered tr td .ns-o_lIav4ze1I-Red, .ns-o_lIav4ze1I-Red, div#centered .ns-o_lIav4ze1I-Red div { 
-    color: rgb(229,73,60);
-    
-}
-div#centered tr td .ns-gnAJ74vqIqF-Magenta, .ns-gnAJ74vqIqF-Magenta, div#centered .ns-gnAJ74vqIqF-Magenta div { 
-    color: rgb(221,80,148);
-    
-}
-div#centered tr td .ns-hA57la2WIzO-Violet, .ns-hA57la2WIzO-Violet, div#centered .ns-hA57la2WIzO-Violet div { 
-    color: rgb(127,135,207);
+div#centered tr td .ns-dTHnOy0wnj0-Purple, .ns-dTHnOy0wnj0-Purple, div#centered .ns-dTHnOy0wnj0-Purple div { 
+    color: rgb(142,54,255);
     
 }
 div#centered tr td .ns-bcuTBpWx2OA-Blue, .ns-bcuTBpWx2OA-Blue, div#centered .ns-bcuTBpWx2OA-Blue div { 
-    color: rgb(44,157,218);
+    color: rgb(0,143,255);
+    
+}
+div#centered tr td .ns-kDZvr_Nu3-9-Bondi, .ns-kDZvr_Nu3-9-Bondi, div#centered .ns-kDZvr_Nu3-9-Bondi div { 
+    color: rgb(0,199,202);
     
 }
 div#centered tr td .ns-ctatl-IN_N3-Green, .ns-ctatl-IN_N3-Green, div#centered .ns-ctatl-IN_N3-Green div { 
-    color: rgb(150,166,0);
+    color: rgb(84,199,0);
+    
+}
+div#centered tr td .ns-o8F90GWOfEO-Yellow, .ns-o8F90GWOfEO-Yellow, div#centered .ns-o8F90GWOfEO-Yellow div { 
+    color: rgb(213,164,0);
+    
+}
+div#centered tr td .ns-ee6KT3agxJ7-Orange, .ns-ee6KT3agxJ7-Orange, div#centered .ns-ee6KT3agxJ7-Orange div { 
+    color: rgb(255,119,0);
+    
+}
+div#centered tr td .ns-o_lIav4ze1I-Red, .ns-o_lIav4ze1I-Red, div#centered .ns-o_lIav4ze1I-Red div { 
+    color: rgb(237,35,46);
+    
+}
+div#centered tr td .ns-keaSv9LyHW3-Graphite, .ns-keaSv9LyHW3-Graphite, div#centered .ns-keaSv9LyHW3-Graphite div { 
+    color: rgb(109,125,157);
     
 }
 
 /* Named Styles Backgroud Colors */
-div#centered tr td .ns-bg-mW_5AmyiqIR-Cyan, .ns-bg-mW_5AmyiqIR-Cyan { 
-    
-}
 div#centered tr td .ns-bg-eUsXLp0Pv1g-Heading1, .ns-bg-eUsXLp0Pv1g-Heading1 { 
     
 }
 div#centered tr td .ns-bg-d4-frBYwy2X-Heading2, .ns-bg-d4-frBYwy2X-Heading2 { 
+    background-color: rgb(247,241,231);
     
 }
-div#centered tr td .ns-bg-lvlHqEWyGdu-Emphasis, .ns-bg-lvlHqEWyGdu-Emphasis { 
+div#centered tr td .ns-bg-krIA-ySqeNG-Heading3, .ns-bg-krIA-ySqeNG-Heading3 { 
     
 }
-div#centered tr td .ns-bg-emdROOKcvza-Highlight, .ns-bg-emdROOKcvza-Highlight { 
-    background-color: rgb(0,69,83);
+div#centered tr td .ns-bg-eKivYKen-Vk-HighlightYellow, .ns-bg-eKivYKen-Vk-HighlightYellow { 
+    background-color: rgba(255,197,0,0.25);
+    
+}
+div#centered tr td .ns-bg-fVncwG-SA8C-HighlightRed, .ns-bg-fVncwG-SA8C-HighlightRed { 
+    background-color: rgba(246,120,137,0.25);
+    
+}
+div#centered tr td .ns-bg-oD8iDt7Sk-V-HighlightGreen, .ns-bg-oD8iDt7Sk-V-HighlightGreen { 
+    background-color: rgba(120,195,68,0.25);
+    
+}
+div#centered tr td .ns-bg-dTHnOy0wnj0-Purple, .ns-bg-dTHnOy0wnj0-Purple { 
+    
+}
+div#centered tr td .ns-bg-bcuTBpWx2OA-Blue, .ns-bg-bcuTBpWx2OA-Blue { 
+    
+}
+div#centered tr td .ns-bg-kDZvr_Nu3-9-Bondi, .ns-bg-kDZvr_Nu3-9-Bondi { 
+    
+}
+div#centered tr td .ns-bg-ctatl-IN_N3-Green, .ns-bg-ctatl-IN_N3-Green { 
     
 }
 div#centered tr td .ns-bg-o8F90GWOfEO-Yellow, .ns-bg-o8F90GWOfEO-Yellow { 
@@ -566,33 +488,39 @@ div#centered tr td .ns-bg-ee6KT3agxJ7-Orange, .ns-bg-ee6KT3agxJ7-Orange {
 div#centered tr td .ns-bg-o_lIav4ze1I-Red, .ns-bg-o_lIav4ze1I-Red { 
     
 }
-div#centered tr td .ns-bg-gnAJ74vqIqF-Magenta, .ns-bg-gnAJ74vqIqF-Magenta { 
-    
-}
-div#centered tr td .ns-bg-hA57la2WIzO-Violet, .ns-bg-hA57la2WIzO-Violet { 
-    
-}
-div#centered tr td .ns-bg-bcuTBpWx2OA-Blue, .ns-bg-bcuTBpWx2OA-Blue { 
-    
-}
-div#centered tr td .ns-bg-ctatl-IN_N3-Green, .ns-bg-ctatl-IN_N3-Green { 
+div#centered tr td .ns-bg-keaSv9LyHW3-Graphite, .ns-bg-keaSv9LyHW3-Graphite { 
     
 }
 
 /* Named Styles Gutter Colors */
-div#centered tr td .ns-gutter-mW_5AmyiqIR-Cyan, .ns-gutter-mW_5AmyiqIR-Cyan { 
-    
-}
 div#centered tr td .ns-gutter-eUsXLp0Pv1g-Heading1, .ns-gutter-eUsXLp0Pv1g-Heading1 { 
     
 }
 div#centered tr td .ns-gutter-d4-frBYwy2X-Heading2, .ns-gutter-d4-frBYwy2X-Heading2 { 
     
 }
-div#centered tr td .ns-gutter-lvlHqEWyGdu-Emphasis, .ns-gutter-lvlHqEWyGdu-Emphasis { 
+div#centered tr td .ns-gutter-krIA-ySqeNG-Heading3, .ns-gutter-krIA-ySqeNG-Heading3 { 
     
 }
-div#centered tr td .ns-gutter-emdROOKcvza-Highlight, .ns-gutter-emdROOKcvza-Highlight { 
+div#centered tr td .ns-gutter-eKivYKen-Vk-HighlightYellow, .ns-gutter-eKivYKen-Vk-HighlightYellow { 
+    
+}
+div#centered tr td .ns-gutter-fVncwG-SA8C-HighlightRed, .ns-gutter-fVncwG-SA8C-HighlightRed { 
+    
+}
+div#centered tr td .ns-gutter-oD8iDt7Sk-V-HighlightGreen, .ns-gutter-oD8iDt7Sk-V-HighlightGreen { 
+    
+}
+div#centered tr td .ns-gutter-dTHnOy0wnj0-Purple, .ns-gutter-dTHnOy0wnj0-Purple { 
+    
+}
+div#centered tr td .ns-gutter-bcuTBpWx2OA-Blue, .ns-gutter-bcuTBpWx2OA-Blue { 
+    
+}
+div#centered tr td .ns-gutter-kDZvr_Nu3-9-Bondi, .ns-gutter-kDZvr_Nu3-9-Bondi { 
+    
+}
+div#centered tr td .ns-gutter-ctatl-IN_N3-Green, .ns-gutter-ctatl-IN_N3-Green { 
     
 }
 div#centered tr td .ns-gutter-o8F90GWOfEO-Yellow, .ns-gutter-o8F90GWOfEO-Yellow { 
@@ -604,15 +532,6 @@ div#centered tr td .ns-gutter-ee6KT3agxJ7-Orange, .ns-gutter-ee6KT3agxJ7-Orange 
 div#centered tr td .ns-gutter-o_lIav4ze1I-Red, .ns-gutter-o_lIav4ze1I-Red { 
     
 }
-div#centered tr td .ns-gutter-gnAJ74vqIqF-Magenta, .ns-gutter-gnAJ74vqIqF-Magenta { 
-    
-}
-div#centered tr td .ns-gutter-hA57la2WIzO-Violet, .ns-gutter-hA57la2WIzO-Violet { 
-    
-}
-div#centered tr td .ns-gutter-bcuTBpWx2OA-Blue, .ns-gutter-bcuTBpWx2OA-Blue { 
-    
-}
-div#centered tr td .ns-gutter-ctatl-IN_N3-Green, .ns-gutter-ctatl-IN_N3-Green { 
+div#centered tr td .ns-gutter-keaSv9LyHW3-Graphite, .ns-gutter-keaSv9LyHW3-Graphite { 
     
 }
